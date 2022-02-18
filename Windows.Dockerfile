@@ -8,3 +8,4 @@ RUN winrm set winrm/config/client @{TrustedHosts="*"}
 
 RUN net user Administrator IfYouAreNot1
 
+ENTRYPOINT ["powershell.exe"]
