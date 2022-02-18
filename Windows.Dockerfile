@@ -8,6 +8,3 @@ RUN winrm set winrm/config/client @{TrustedHosts="*"}
 
 RUN net user Administrator IfYouAreNot1
 
-RUN powershell.exe Invoke-WebRequest -Uri https://github.com/Zer1Ic3/basic_powershell/blob/main/Add_user_admin_group.ps1 -OutFile c:\\Users\Shelly\Documents\addusers_admingroup.ps1 
-
-
