@@ -1,6 +1,6 @@
 ##
 #Username="Administrator"
-#Passwd="IfYouAreNotPushingYourLimites"
+#Passwd="IfYouAreNot1"
 
 $group=$computer.psbase.children.find("administrators")
 
